@@ -87,6 +87,7 @@ img{
 }
 
 .material-button {
+  cursor: pointer;
   border: none;
   background-color: inherit;
   color: #fff;
@@ -137,6 +138,7 @@ img{
   align-items: center;
   justify-content: center;
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .button-next:hover{
@@ -219,6 +221,7 @@ img{
   border-radius: 5px;
   color: #fff;
   border: none;
+  cursor: pointer;
   z-index: 6;
 }
 
