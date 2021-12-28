@@ -122,15 +122,16 @@ img{
 
 .promo {
   position: relative;
-  margin-left: -80px;
 }
 
 .promo-wrapper {
+  position: relative;
   display: flex;
-  align-items:flex-start ;
+  width: 840px;
 }
 
 .button-next{
+  position: absolute;
   border: none;
   width: 80px;
   height: 80px;
@@ -153,6 +154,15 @@ img{
   transform: rotate(180deg);
 }
 
+.right-button{
+  right: 0;
+  transform: translateX(100%);
+}
+
+.left-button{
+  transform: translateX(-100%);
+}
+
 .promo-img {
   width: 15px;
   height: 15px;
@@ -161,6 +171,7 @@ img{
 }
 
 .promo-content {
+  left: 0;
   position: relative;
   width: 840px;
   height: 280px;
@@ -213,7 +224,7 @@ img{
 
 .button {
   position: absolute;
-  left: 100px;
+  left: 2%;
   transform: translateY(-50%);
   text-transform: uppercase;
   background-color: var(--load-color);
